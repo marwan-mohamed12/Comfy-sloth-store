@@ -15,6 +15,36 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 const SingleProductPage = () => {
+    const { id } = useParams();
+    const navigate = useNavigate();
+    const {
+        single_product_loading: loading,
+        single_product_error: error,
+        single_product: product,
+        fetchSingleProduct,
+    } = useProductsContext();
+
+    useEffect(() => {
+        fetchSingleProduct(`${url}${id}`);
+    }, [id]);
+    console.log(product);
+
+    useEffect(() => {
+        if (error) {
+            setTimeout(() => {
+                navigate("/");
+            }, 3000);
+        }
+    }, [error]);
+
+    if (loading) {
+        return <Loading />;
+    }
+
+    if (error) {
+        return <Error />;
+    }
+
     return <h4>single product page</h4>;
 };
 
