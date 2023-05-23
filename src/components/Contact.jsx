@@ -95,6 +95,11 @@ const Wrapper = styled.section`
     @media (min-width: 1280px) {
         padding: 15rem 0;
     }
+    @media (max-width: 762px) {
+        .contact-form {
+            grid-template-columns: 1fr;
+        }
+    }
 `;
 
 export default Contact;
