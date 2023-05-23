@@ -1,6 +1,7 @@
 # Comfy Sloth Store
 
 Comfy Sloth store is a Furniture E-Commerce Website developed using React.js. The website offers various features including user authentication, browsing and filtering products, adding products to cart, and a seamless checkout process.
+[Live Demo]([URL](https://react-store-marwan.netlify.app/))
 
 ## Table of Contents
 1. [Getting Started](#getting-started)
@@ -52,5 +53,5 @@ The Comfy Sloth Website offers the following features:
 9. Stripe
 
 ## Contributing
-Contributions to the Furniture E-Commerce Website are welcome! If you find any bugs or have suggestions for improvement, please feel free to open an issue or submit a pull request.
+Contributions to the Comfy Sloth Website are welcome! If you find any bugs or have suggestions for improvement, please feel free to open an issue or submit a pull request.
 
