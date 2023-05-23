@@ -15,7 +15,7 @@ To get started with the Comfy Sloth store, follow these steps:
 2. Make sure you have Node.js installed on your system.
 3. Open a terminal and navigate to the project directory.
 4. Install the dependencies by running the command:
-` npm install `
+`npm install`
 5. Once the installation is complete, start the development server by running:
 ``` npm run dev ```
 6. Open your browser and visit http://localhost:5173 to access the website.
